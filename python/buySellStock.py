@@ -7,5 +7,5 @@ class Solution:
             if (prices[i] < min):
                 min = prices[i]
             elif (prices[i]-min > max):
-                max = prices[i]
+                max = prices[i] - min
         return max
